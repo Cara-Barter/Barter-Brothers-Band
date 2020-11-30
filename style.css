@@ -1,0 +1,35 @@
+body {
+  color: slategrey;
+  font-size: 18px;
+  font-family: 'Josefin Sans', sans-serif;
+  background-color: black
+}
+
+h1 {
+  colour: blue;
+  font-family: 'Montserrat', sans-serif;
+}
+
+h2 {
+  font-size: 20;
+  font-family: 'Montserrat', sans-serif;
+  color: grey;
+}
+
+p {
+  font-size: 18px;
+  font-family: 'Josefin Sans', sans-serif;
+  color: white;
+}
+
+li {
+  font-size: 14;
+  font-family: 'Josefin Sans', sans-serif;
+  color: papayawhip;
+}
+
+section {
+  color: papayawhip;
+  font-family: 'Josefin Sans', sans-serif;
+  font-family: 'Montserrat', sans-serif;
+}
