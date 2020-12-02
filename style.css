@@ -2,6 +2,8 @@
 
 * {
   font-size: 100%;
+  font-family: 'Castoro', serif;
+  font-family: 'Fira Sans', sans-serif;
   margin: 0;
   line-height: 2;
   box-sizing: content-box;
@@ -12,8 +14,6 @@ body {
   background-color: black;
   color: slategrey;
   font-size: 14px;
-  font-family: 'Josefin Sans', sans-serif;
-  line-height: 2;
   margin: 50px;
 }
 
@@ -22,9 +22,7 @@ body {
 }
 
 h1 {
-  font-size:36px;
   font-weight: bold;
-  font-family: 'Montserrat', sans-serif;
   text-align: center;
 }
 
@@ -32,22 +30,18 @@ h2 {
   font-size: 24px;
   font-weight: 700;
   font-style: normal;
-  font-family: 'Montserrat', sans-serif;
   color: grey;
 }
 
 h1, h2 {
   margin-bottom: 20px;
 }
+
 p {
   font-size: 18px;
   font-weight: normal;
-  font-family: 'Josefin Sans', sans-serif;
   color: papayawhip;
   margin-top: 10px;
-  margin-bottom: 20px;
-  margin-right: 10px;
-  margin-left: 10px;
 }
 
 li {
@@ -59,9 +53,10 @@ li {
 ul, ol {
   margin: 15px 0;
 }
+
 section {
   font-family: 'Josefin Sans', sans-serif;
-  margin: 30px;
+  margin: 40px;
   padding: 30px;
   width: 70%;
 }
@@ -72,9 +67,14 @@ a:hover {
 }
 
 a:link,
-a:focus
+a:focus,
 a:active {
+  color: darkblue;
   text-decortation: none;
+}
+
+a:hover {
+  text-decoration: underline;
 }
 
 header,
@@ -87,7 +87,14 @@ header {
   border-bottom: 5px solid grey;
 }
 
-img{
+img {
   width: 50%;
   height: 50%;
+}
+
+.bio {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
 }
