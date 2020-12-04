@@ -24,25 +24,70 @@ p {
   margin-top: 10px;
 }
 
-.title {
-  font-size: 48px;
-  text-align: center;
-}
-
 header {
   border-bottom: 5px solid grey;
 }
 
 img {
   width: auto;
-  height: 400px;
-  /* padding: 10%; */
+  height: 450px;
+  /* padding: 5%; */
+}
+
+
+h1 {
+  font-size: 38px;
+  font-weight: bold;
+  text-align: center;
+}
+
+h2 {
+  font-size: 36px;
+  font-weight: 500;
+  font-style: normal;
+  color: papayawhip;
+}
+
+h3 {
+  font-size: 24px;
+}
+
+li {
+  font-size: 16px;
+  color: papayawhip;
+}
+
+ul, ol {
+  margin: 15px 0;
+  /* margin-left: 30px; */
+}
+
+a:hover {
+  color: green;
+  text-decoration: underline;
+}
+
+a:link,
+a:focus,
+a:active {
+  color: steelblue;
+  text-decortation: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.title {
+  font-size: 48px;
+  text-align: center;
 }
 
 .container {
   max-width: 100%;
   margin: 0 auto;
   margin-bottom: 100px;
+  margin-left: 150px;
   margin-top: 50px;
   background-repeat: repeat;
   display: grid;
@@ -61,11 +106,13 @@ img {
   margin-top: 50px;
   display: block;
   text-align: center;
+  padding: 0;
 }
 
 .box {
   max-width: 100%;
   margin: 0 auto;
+  margin-left: 150px;
   background-repeat: repeat;
   display: grid;
   grid-template-columns: 30% 60%;
@@ -78,7 +125,6 @@ img {
 }
 
 .contact {
-
   max-width: 100%;
   margin: 0 auto;
   margin-bottom: 100px;
@@ -97,62 +143,20 @@ img {
   padding-right: 10%;
 }
 
-.contact2 a {
-
-}
-
-h1 {
-  font-weight: bold;
-  text-align: center;
-}
-
-h2 {
-  font-size: 36px;
-  font-weight: 500;
-  font-style: normal;
-  color: papayawhip;
-}
-
-/* li {
-  font-size: 18px;
-  color: papayawhip;
-} */
-
-/* ul, ol {
-  margin: 15px 0;
-} */
-
-a:hover {
-  color: green;
-  text-decoration: underline;
-}
-
-a:link,
-a:focus,
-a:active {
-  color: steelblue;
-  text-decortation: none;
-}
-
-a:hover {
-  text-decoration: underline;
-}
-
-
-
 .bio {
   display: block;
-  margin-top: 40px;
+  margin-top: 20px;
   margin-left: auto;
   margin-right: auto;
-  width: 70%;
+  margin-bottom: 100px;
+  width: 60%;
 }
 
 .porch {
   max-width: 50%;
   margin: 0 auto;
-  margin-bottom: 100px;
-  margin-top: 50px;
+  /* margin-bottom: 20px; */
+  margin-top: 20px;
   background-repeat: repeat;
   justify-content: space-between;
 }
@@ -164,6 +168,19 @@ a:hover {
   margin-right: auto;
   padding: 5%;
   text-align: center;
+}
+
+.store p, .store li {
+  margin-left: 190px;
+}
+
+.banner {
+  max-width: 100%;
+  margin: 0px;
+  height: 200px;
+  background-image: url(images/drumforest.jpg);
+  background-size: cover;
+  background-position: 0% 70%;
 }
 
 /* start of menu  */
@@ -178,7 +195,7 @@ nav {
   max-width: 90%;
   mask-image: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, #ffffff 25%, #ffffff 75%, rgba(255, 255, 255, 0) 100%);
   margin: 0 auto;
-  padding: 60px 0;
+  /* padding: 60px 0; */
 }
 
 nav ul {
@@ -193,7 +210,7 @@ nav ul li {
 
 nav ul li a {
   padding: 28px;
-  font-family: "Open Sans";
+  /* font-family: "Open Sans"; */
   text-transform: uppercase;
   color: papayawhip;
   font-size: 18px;
