@@ -1,36 +1,5 @@
 @use './styles/partials/global';
 
-.title {
-  font-size: 48px;
-  text-align: center;
-}
-
-.container {
-  max-width: 100%;
-  margin: 0 auto;
-  margin-bottom: 100px;
-  margin-left: 150px;
-  margin-top: 50px;
-  background-repeat: repeat;
-  display: grid;
-  grid-template-columns: 30% 60%;
-  align-items: start;
-  justify-content: space-between;
-}
-
-.container2 {
-  padding-right: 10%;
-}
-
-.photos {
-  margin: 0 auto;
-  margin-bottom: 100px;
-  margin-top: 50px;
-  display: block;
-  text-align: center;
-  padding: 0;
-}
-
 .box {
   max-width: 100%;
   margin: 0 auto;
@@ -46,32 +15,11 @@
   padding-right: 10%;
 }
 
-.contact {
-  max-width: 100%;
-  margin: 0 auto;
-  margin-bottom: 100px;
-  margin-top: 50px;
-  background-repeat: repeat;
-  display: grid;
-  grid-template-columns: 40% 50%;
-  align-items: start;
-  justify-content: space-between;
-  /* border: 1px solid red; */
-  height: 450px;
-}
-
-.contact2 {
-  font-size: 36px;
-  padding-right: 10%;
-}
-
 .bio {
-  display: block;
-  margin-top: 20px;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 100px;
-  width: 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 1rem 4rem;
 }
 
 .porch {
@@ -82,18 +30,4 @@
   background-repeat: repeat;
   justify-content: space-between;
 }
-
-.videos {
-  max-width: 100%;
-  display: grid;
-  margin-left: auto;
-  margin-right: auto;
-  padding: 5%;
-  text-align: center;
-}
-
-.store p, .store li {
-  margin-left: 190px;
-}
-
 
