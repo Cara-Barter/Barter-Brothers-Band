@@ -66,14 +66,7 @@ body {
 }
 
 p {
-  font-size: 18px;
-  font-weight: normal;
   color: papayawhip;
-  margin-top: 10px;
-}
-
-header {
-  border-bottom: 5px solid grey;
 }
 
 img {
@@ -96,22 +89,6 @@ h2 {
 
 h3 {
   font-size: 24px;
-}
-
-li {
-  font-size: 16px;
-  color: papayawhip;
-}
-
-a:link,
-a:focus,
-a:active {
-  color: steelblue;
-  text-decoration: none;
-}
-
-a:hover {
-  text-decoration: underline;
 }
 
 .banner {
@@ -139,10 +116,10 @@ a:hover {
   display: inline-block;
 }
 .nav__link {
-  padding: 28px;
+  padding: 1.75rem;
   text-transform: uppercase;
   color: papayawhip;
-  font-size: 18px;
+  font-size: 1.5rem;
   text-decoration: none;
   display: block;
 }
@@ -153,14 +130,16 @@ a:hover {
 
 /* end of menu */
 .title {
-  font-size: 48px;
+  font-size: 3rem;
   text-align: center;
   padding: 1rem;
+  text-transform: uppercase;
+  border-bottom: 5px solid grey;
 }
 
 .footer {
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
 }
 .footer__text {
   padding: 1rem;
